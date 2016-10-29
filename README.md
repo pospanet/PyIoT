@@ -37,4 +37,4 @@ esptool.py --port COM3 --baud 460800 write_flash --flash_size 4m 0 esp8266-20161
 For more advanced scenarios I can recommend [Microsoft Azure SDK](https://azure.microsoft.com/en-us/downloads/) to do rapid development. You can also find some examples and utilities [here](https://github.com/Azure/azure-iot-sdks).
 
 ## Azure functions
-For implementation of [Azure Function](https://azure.microsoft.com/en-us/services/functions/) see [here](./C#/Azure Function) 
+For implementation of [Azure Function](https://azure.microsoft.com/en-us/services/functions/) see [here](./C%23/Azure%20Function) 
