@@ -23,12 +23,12 @@ One you have any ESP8266 related board, you have to have MicroPython ROM image t
 ```
 esptool.py --port COM3 erase_flash
 ```
-  * Replace `COM3` with path to your serial device where ESP8266 board is connected like /dev/tty0 on Linux & Mac or COM1 on Windows
+  * Replace `COM3` with path to your serial device where ESP8266 board is connected like `/dev/tty0` on Linux & Mac or `COM1` on Windows
 2. Install MicroPython
 ```
 esptool.py --port COM3 --baud 460800 write_flash --flash_size 4m 0 esp8266-20161017-v1.8.5.bin
 ```
-  * Replace `COM3` with path to your serial device where ESP8266 board is connected like /dev/tty0 on Linux & Mac or COM1 on Windows
+  * Replace `COM3` with path to your serial device where ESP8266 board is connected like `/dev/tty0` on Linux & Mac or `COM1` on Windows
   * baud rate should be lowered if flash is unsuccessful. `115200` should be safe speed.
   * flash_size has to be set to physical device flash memory size.
   * following number is offset where flashing will start. Just use `0`.
