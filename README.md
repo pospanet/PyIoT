@@ -27,10 +27,10 @@ esptool.py --port <specify serial device as /dev/ttyX or COMX> erase_flash
 ```
 esptool.py --port COM3 --baud 460800 write_flash --flash_size 4m 0 esp8266-20161017-v1.8.5.bin
 ```
-  * Replace COM3 with path to your serial device where ESP8266 board is connected
-  * baud rate should be lowered if flash is unsuccessful. 115200 should be safe speed.
+  * Replace `COM3` with path to your serial device where ESP8266 board is connected
+  * baud rate should be lowered if flash is unsuccessful. `115200` should be safe speed.
   * flash_size has to be set to physical device flash memory size.
-  * following number is offset where flashing will start. Just use 0.
+  * following number is offset where flashing will start. Just use `0`.
   * As a last parameter you have to specify location of binary flash file.
 
 ### Microsoft Azure SDK
